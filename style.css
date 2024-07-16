@@ -7,8 +7,7 @@
 body {
   width: 90%;
   margin: auto;
-  /* border: 2px solid salmon;
-  font-family: "Mulish", sans-serif; */
+  font-family: "Mulish", sans-serif;
 }
 
 /* shared styles  */
@@ -35,83 +34,3 @@ font-weight: 700;
 padding: 14px 35px;
 }
 /* nav-area styles  */
-
-.nav-area {
-  justify-content: space-between;
-  padding: 11px 0px;
-}
-
-.logo-area {
-  justify-content: center;
-  align-items: center;
-  gap: 1rem;
-  font-size: 2.25rem;
-  font-weight: 800;
-}
-.nav-options {
-  justify-content: center;
-  align-items: center;
-  gap: 44px;
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-/* exploring section styless  */
-
-.exploring-section {
-  background-image: linear-gradient(
-      180deg,
-      rgba(19, 19, 24, 0.8),
-      rgba(19, 19, 24, 0) 100%
-    ),
-    url(./Images/Group-13.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.exploring-container {
-  text-align: center;
-  padding: 6.6rem 11.5rem;
-  width: 800px;
-  height: 288px;
-  margin: 0 auto;
-}
-
-.exploring-section h3 {
-  font-size: 4rem;
-  color: white;
-  font-weight: 800;
-  margin-bottom: 24px;
-}
-
-.exploring-section p {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 26px;
-  letter-spacing: 0%;
-  color: wheat;
-}
-
-.exploring-input-section {
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.3);
-  padding: 16px;
-}
-.exploring-input-section input,
-.exploring-input-section select,
-.exploring-input-section button {
-  width: 174px;
-  height: 52px;
-  border: none;
-  border-radius: 8px;
-  margin: 0 6px;
-  color: rgba(19, 19, 24, 0.5);
-  font-family: Mulish;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0%;
-  text-align: left;
-  padding-left: 8px;
-}
